@@ -51,9 +51,11 @@ function displayPhotos() {
 
 // Unsplash API
 const imageCount = 10;
+const searchKeyword = 'Technology'
 const apiKey = 'bxXDhORxZaTw0lwTuLHVk1jo4Ee0LqayovwRqNlLocY';
 
-const apiUrl = `https://api.unsplash.com/photos/random/?client_id=${apiKey}&count=${imageCount}`;
+// const apiUrl = `https://api.unsplash.com/photos/random/?client_id=${apiKey}&count=${imageCount}`;
+const apiUrl = `https://api.unsplash.com/photos/random/?client_id=${apiKey}&count=${imageCount}&query=${searchKeyword}`;
 
 // Get photos from Unsplash API
 async function getPhotosFromAPI() {
