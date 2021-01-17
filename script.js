@@ -50,7 +50,7 @@ function displayPhotos() {
 };
 
 // Unsplash API
-const imageCount = 10;
+const imageCount = 30;
 const searchKeyword = 'Technology'
 const apiKey = 'bxXDhORxZaTw0lwTuLHVk1jo4Ee0LqayovwRqNlLocY';
 
